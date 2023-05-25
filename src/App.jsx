@@ -18,7 +18,7 @@ function App() {
       </div>
       <h1>FASE 5 DISEÑO DE SITIOS WEB</h1>
       <h3>INTEGRANTE : JOHAN FELIPE DIAZ GUZMAN </h3>
-      <a href="index.html">Click para ver el proyecto de la fase 5</a>
+      <a href="inicio.html">Click para ver el proyecto de la fase 5</a>
       {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

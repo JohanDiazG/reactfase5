@@ -1,0 +1,97 @@
+.contenedor {
+  display: grid;
+  grid-template-areas:
+    "A A A A"
+    "B B B B"
+    "C D D D"
+    "E E E E";
+}
+
+header {
+  grid-area: A;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #146c94;
+  color: #f6f1f1;
+  
+}
+
+nav {
+  grid-area: B;
+  font-size: 20px;
+  background-color: #146c94;
+  
+}
+
+aside {
+  grid-area: C;
+  
+
+ 
+}
+main {
+  padding: 10px 40px;
+  margin: 6px;
+  grid-area: D;
+  height: 738px;
+  width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+footer {
+  padding: 10px;
+  grid-area: E;
+  background-color: #000000;
+  color: #f6f1f1;
+  text-align: center;
+  height: 100px;
+}
+
+.menu_horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  color: #f6f1f1;
+}
+.menu_horizontal a {
+  text-decoration: none;
+  padding: 10px 40px;
+  margin: 6px;
+  color: #f6f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu_aside {
+  list-style: none;
+  padding: 5px;
+  background-color: #19a7ce;
+}
+.menu_aside a {
+  text-decoration: none;
+  background-color: #f6f1f1;
+  padding: 10px 30px;
+  margin: 4px;
+  display: block;
+  text-align: center;
+}
+.FotoPerfil{
+  float: left;
+  width: 250px;
+  height:250px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.ImagenAudio{
+  
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
